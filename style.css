@@ -1,0 +1,97 @@
+.container{
+    display: flex;
+    justify-content: center; 
+    max-width: 700px;
+    margin: 0 auto; 
+  }
+  
+  .cabecalho{
+    margin-top: 60px;
+  }
+  
+  .cabecalho img{
+    width: 250px;
+    height: 70px;
+  }
+
+  .pergunta{
+    margin-top: 65px;
+    color: white;
+    font-size: 40px;
+    
+  }
+  
+  .mist{
+    display: flex;
+    gap: 30px;
+  }
+  
+  .avatar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 51px;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border: px solid rgb(77, 75, 75);
+    background-color: #444444;
+    border-radius: 10px;
+  }
+  
+  .avatar header img{
+    width: 150px;
+    height: 150px;
+  }
+
+  .imagem{
+    border-radius: 10px;
+  }
+
+  .avatar header img.imagem2{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+
+  }
+  
+  .imagem:hover{
+    transition: 1s;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: none;
+
+  }
+  
+  .imagem2:hover{
+    transition: 1s;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: none;
+  }
+  
+  
+  .conteudo{
+    color: rgb(153, 153, 153);
+    text-align: center;
+  }
+  
+  .botao{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fdfdfd;
+    padding: 30px 70px 30px 70px;
+    background-color: black;
+    border-radius: 10px;
+    color: beige;
+    margin-top: 100px;
+    font-size: large;
+    cursor: pointer;
+    transition: 1s;
+  
+  }
+  
+  .botao:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+  }
